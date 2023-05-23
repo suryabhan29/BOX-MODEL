@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS BOX MODEL</title>
+        <style>
+            .box1{
+                width: 200px;
+                height: 200px;
+                line-height: 200px;
+                border: 10px solid black;
+                text-align: center;
+                font-size: 2em;
+                font-weight: bold;
+                text-decoration: underline;
+                display: inline-block;
+                margin-right: 50px;
+            }
+            .box1:hover{
+                background-color: red;
+                color: white;
+                border-radius: 200px;
+                cursor: pointer;
+            }
+            .box2{
+                width: 200px;
+                height: 200px;
+                line-height: 200px;
+                border: 10px solid red;
+                text-align: center;
+                font-size: 2em;
+                font-weight: bold;
+                text-decoration: underline;
+                display: inline-block;
+               
+            }
+            .box2:hover{
+                background-color: green;
+                border-radius: 200px;
+                color: purple;
+               cursor: pointer;
+            }
+            div.box3{
+                width: 200px;
+                height: 200px;
+                line-height: 200px;
+               border: 10px solid purple;
+               text-align: center;
+               font-size: 2em;
+               font-weight: bold;
+               text-decoration: underline;
+               display: inline-block;
+               margin-left: 50px;
+            }
+            div.box3:hover{
+                background-color: brown;
+                border-radius: 200px;
+                color: blue;
+                cursor: pointer;
+            }
+            .box4{
+                width: 200px;
+                height: 200px;
+                line-height: 200px;
+                border: 10px solid orange;
+                text-align: center;
+                display: inline-block;
+                margin-left: 50px;
+                font-size: 2em;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+            div.box4:hover{
+                background-color: blue;
+                border-radius: 200px;
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box1">Box1</div>
+        <div class="box2">Box2</div>
+        <div class="box3">Box3</div>
+        <div class="box4">Box4</div>
+    </body>
+</html>
